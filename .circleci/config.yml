@@ -127,11 +127,11 @@ workflows:
     jobs:
       - nodeseek:
           context: checkincontext
-      - v2ex:
-          context: checkincontext
-      - onepoint3acres:
-          context: checkincontext
+      #- v2ex:
+      #    context: checkincontext
+      #- onepoint3acres:
+      #   context: checkincontext
       - deepflood:
           context: checkincontext
-      - sakurafrp:
-          context: checkincontext
+      #- sakurafrp:
+      #    context: checkincontext
